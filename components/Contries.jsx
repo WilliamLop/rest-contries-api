@@ -9,7 +9,7 @@ const fadeInAnimationVariants = {
     opacity: 0,
     y: 100,
   },
-  animate: (index) => ({
+  animate: (i) => ({
     opacity: 1,
     y: 0,
     transition: {
@@ -52,7 +52,7 @@ const Contries = ({ contries, search }) => {
             <>
               <ul className="group">
                 <motion.li className="shadow-md mt-12 rounded-md hover:bg-slate-100 dark:hover:bg-gray-800
-                dark:bg-darkBlue transition
+                dark:bg-darkBlue hover:duration-200
                 overflow-hidden"
                   variants={fadeInAnimationVariants}
                   initial="initial"
@@ -62,10 +62,10 @@ const Contries = ({ contries, search }) => {
                   }}
                   custom={i}>
                   <Image src={item.flags.png} className="w-full h-[250px] md:h-[180px] rounded-ss-md rounded-tr-md 
-                    group-hover:scale-[1.08] transition object-cover" width={400} height={400} />
+                    group-hover:scale-[1.08] object-cover duration-200" width={400} height={400} />
                   <div className="info px-4 py-8">
-                    <h2 className="group-hover:text-blue-800 font-bold text-lg h-[60px] transition
-                    dark:group-hover:text-blue-400">{item.name}</h2>
+                    <h2 className="group-hover:text-blue-800 font-bold text-lg h-[60px] text-veryDark dark:text-white
+                    dark:group-hover:text-blue-400 hover:duration-200">{item.name}</h2>
 
                     <div className="font-semibold text-veryDark dark:text-white">
                       <p className="">Population: <span className="font-light dark:text-white/70">{typeof item.population === 'number' ? item.population.toLocaleString() : item.population}</span>

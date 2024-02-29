@@ -15,7 +15,7 @@ const Header = () => {
 
     return (
         <motion.header className={`w-full h-auto py-4 z-20 bg-white drop-shadow-md ${darkMode ? 'dark' : 'light'}
-        fixed transition dark:bg-darkBlue`}
+        fixed dark:bg-darkBlue`}
         initial={{ y: "-100%", opacity: 0 }}
         animate={{ y: "0", opacity: 1 }}
         transition={{ delay:0 }}>
