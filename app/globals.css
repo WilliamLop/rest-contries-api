@@ -12,9 +12,7 @@
 .dark{
     @apply bg-veryDark text-white ; /* Color de fondo oscuro */
 }
-.Verydark{
-    @apply bg-darkBlue text-white ; /* Color de fondo oscuro */
-}
+
 .light {
     @apply bg-veryLight text-black ;
 }
