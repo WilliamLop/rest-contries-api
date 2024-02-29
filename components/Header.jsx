@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-// import { IoMoonOutline } from "react-icons/io5";
 import { IoMoonSharp } from 'react-icons/io5';
 import { motion } from 'framer-motion';
 import { useDarkMode } from '../contexts/DarkModeContext';

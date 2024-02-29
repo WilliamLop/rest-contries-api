@@ -1,5 +1,4 @@
 import React from 'react'
-import data from '../api/data.json';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';

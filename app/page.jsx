@@ -1,12 +1,10 @@
 "use client";
 
 import Contries from "@/components/Contries";
-import Image from "next/image";
 import { IoSearch } from "react-icons/io5";
 import data from '../api/data.json';
 import { useState } from "react";
 import { motion } from 'framer-motion';
-import { ThemeProvider } from "next-themes";
 import { useDarkMode } from '../contexts/DarkModeContext';
 
 
