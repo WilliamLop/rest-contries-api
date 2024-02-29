@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import { IoMoonSharp } from 'react-icons/io5';
 import { motion } from 'framer-motion';
 import { useDarkMode } from '../contexts/DarkModeContext';
@@ -10,7 +10,10 @@ const Header = () => {
 
     const { darkMode, toggleDarkMode } = useDarkMode();
      // Actualizar el tema del body
-    document.body.classList.toggle("dark", darkMode);
+     useEffect(() => {
+        // Actualizar el tema del body solo en el navegador
+        document.body.classList.toggle("dark", darkMode);
+      }, [darkMode]); // Asegúrate de que el efecto se ejecute cuando darkMode cambie
 
     return (
         <motion.header className={`w-full h-auto py-4 z-20 bg-white drop-shadow-md ${darkMode ? 'dark' : 'light'}
