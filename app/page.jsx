@@ -28,7 +28,7 @@ export default function Home() {
   console.log(filteredCountries)
   
   return (
-    <main className={`w-full h-auto py-4 drop-shadow-md ${darkMode ? 'dark' : 'light'}`}>
+    <main className={`w-full h-auto py-4  ${darkMode ? 'dark' : 'light'}`}>
 
       <section className="w-[90%] max-w-[1300px] mx-auto py-20">
         {/* Buscadores */}
@@ -37,8 +37,7 @@ export default function Home() {
           animate={{ x: "0", opacity: 1 }}
           transition={{ delay: 0.175 }}
           >
-          <div className="flex gap-2 items-center bg-white shadow-sm px-4 py-2 w-full md:w-[400px]
-          dark:bg-veryDark dark:text-white
+          <div className="flex gap-2 items-center shadow-sm px-4 py-2 w-full md:w-[400px]
             rounded-md">
             <span className="text-lg text-darkGray">
               <IoSearch />
@@ -48,7 +47,7 @@ export default function Home() {
               type="search"
               placeholder="Search for a country..."
               aria-label="Search"
-              className="h-full w-full py-2 pl-2 rounded-md bg-white  dark:bg-veryDark dark:text-white"
+              className="h-full w-full py-2 pl-2 rounded-md bg-transparent"
               aria-describedby="button-addon2" />
           </div>
 

@@ -75,7 +75,7 @@ const Countrie = ({ params }) => {
     }
 
     return (
-    <section className={`w-full h-screen py-4 drop-shadow-md ${darkMode ? 'dark' : 'light'}`}>
+    <section className={`w-full h-auto md:h-screen py-4 drop-shadow-md ${darkMode ? 'dark' : 'light'}`}>
         <article className="w-[90%] max-w-[1300px] mx-auto py-20">
 
         <>
