@@ -8,10 +8,13 @@
     }    
 }
 
+
 .dark{
     @apply bg-veryDark text-white transition; /* Color de fondo oscuro */
 }
-
+.Verydark{
+    @apply bg-darkBlue text-white transition; /* Color de fondo oscuro */
+}
 .light {
     @apply bg-veryLight text-black transition;
 }

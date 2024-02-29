@@ -75,8 +75,8 @@ const Countrie = ({ params }) => {
     }
 
     return (
-    <section className={`w-full h-auto md:h-screen py-4 drop-shadow-md ${darkMode ? 'dark' : 'light'}`}>
-        <article className="w-[90%] max-w-[1300px] mx-auto py-20">
+    <section className={`w-full h-screen mb-12 ${darkMode ? 'dark' : 'light'}`}>
+        <article className="w-[90%] max-w-[1300px] mx-auto pt-20 ">
 
         <>
             <motion.div className=""
@@ -93,21 +93,21 @@ const Countrie = ({ params }) => {
                     Back
                 </Link>
             </motion.div>
-            <section className="grid md:grid-cols-2 items-center justify-between gap-6
+            <section className="grid lg:grid-cols-2 items-center justify-center lg:justify-between gap-6
             w-full">
                 <motion.div
                     initial={{ y: "100%", x: "0%", opacity: 0 }}
                     animate={{ y: "0", x: "0%", opacity: 1 }}
                     transition={{ delay: 0.2 }}>
                     <Image src={country.flags.svg} width={400} height={400} alt={country.name}
-                        className="w-full drop-shadow-sm rounded-sm my-6" />
+                        className="w-full md:h-[300px] xl:h-[500px] drop-shadow-sm rounded-sm my-6" />
                 </motion.div>
                 {/*  Info */}
                 <motion.div className="grid gap-10 w-full md:justify-end"
                     initial={{ y: "-100%", opacity: 0 }}
                     animate={{ y: "0", opacity: 1 }}
                     transition={{ delay: 0.175 }}>
-                    <h1 className="font-bold text-2xl">{country.name}</h1>
+                    <h1 className="font-extrabold text-2xl xl:text-3xl">{country.name}</h1>
                     <div className="flex flex-col gap-8 sm:flex-row">
                         <div className="grid gap-2">
                             <p className="font-bold">Native name
