@@ -51,7 +51,7 @@ const Contries = ({ contries, search }) => {
             <>
               <ul className="group">
                 <motion.li className="shadow-md mt-12 rounded-md hover:bg-slate-100 dark:hover:bg-gray-800
-                dark:bg-darkBlue hover:duration-200
+                dark:bg-darkBlue hover:duration-200 bg-white
                 overflow-hidden"
                   variants={fadeInAnimationVariants}
                   initial="initial"

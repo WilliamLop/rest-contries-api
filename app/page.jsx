@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <main className={`w-full h-auto py-4`}>
 
-      <section className="w-[90%] max-w-[1300px] mx-auto py-20 ">
+      <section className="w-[90%] max-w-[1300px] mx-auto py-20 mt-8">
         {/* Buscadores */}
         <motion.section className="flex flex-col md:flex-row items-center justify-between gap-8"
           initial={{ y: "-100%", opacity: 0 }}

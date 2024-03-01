@@ -76,7 +76,7 @@ const Countrie = ({ params }) => {
 
     return (
     <section className={`w-full h-screen mb-12 ${darkMode ? 'dark' : 'light'}`}>
-        <article className="w-[90%] max-w-[1300px] mx-auto pt-20 ">
+        <article className="w-[90%] max-w-[1300px] mx-auto pt-20 pb-10 md:pb-0 ">
 
         <>
             <motion.div className=""
@@ -85,7 +85,7 @@ const Countrie = ({ params }) => {
                 transition={{ delay: 0.175 }}>
                 <Link href="/" className="border border-black/[0.1] flex items-center gap-4 w-[100px]
                 font-bold rounded-md shadow-md py-2 justify-center mb-10 hover:bg-veryDark hover:text-white
-                transition"
+                transition mt-10"
                     initial={{ y: "-100%", opacity: 0 }}
                     animate={{ y: "0", opacity: 1 }}
                     transition={{ delay: 0.175 }}>
