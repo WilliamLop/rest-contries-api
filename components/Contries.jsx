@@ -61,7 +61,7 @@ const Contries = ({ contries, search }) => {
                   }}
                   custom={i}>
                   <Image src={item.flags.png} className="w-full h-[250px] md:h-[180px] rounded-ss-md rounded-tr-md 
-                    group-hover:scale-[1.08] object-cover duration-200" width={400} height={400} />
+                    group-hover:scale-[1.08] object-cover duration-200" width={400} height={400} alt={item.name} />
                   <div className="info px-4 py-8">
                     <h2 className="group-hover:text-blue-800 font-bold text-lg h-[60px] text-veryDark dark:text-white
                     dark:group-hover:text-blue-400 hover:duration-200">{item.name}</h2>
