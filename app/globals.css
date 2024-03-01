@@ -14,5 +14,5 @@
 }
 
 .light {
-    @apply bg-veryLight text-black ;
+    @apply bg-white text-black ;
 }

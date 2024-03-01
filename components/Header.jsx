@@ -17,7 +17,7 @@ const Header = () => {
       }, [darkMode]); // Asegúrate de que el efecto se ejecute cuando darkMode cambie
 
     return (
-        <motion.header className={`w-full h-auto py-5 z-20 bg-white drop-shadow-md ${darkMode ? 'dark' : 'light'}
+        <motion.header className={`w-full h-auto py-5 z-20 drop-shadow-md ${darkMode ? 'dark' : 'light'}
         fixed dark:bg-darkBlue`}
         initial={{ y: "-100%", opacity: 0 }}
         animate={{ y: "0", opacity: 1 }}
