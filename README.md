@@ -1,28 +1,16 @@
 # Frontend Mentor - REST Countries API with color theme switcher solution
 
-This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta es una solución al [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Los retos de Frontend Mentor te ayudan a mejorar tus habilidades de programación construyendo proyectos realistas. 
 
-## Table of contents
+## Índice
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- Vista general](#overview) - [El reto](#the-challenge) - [Captura de pantalla](#screenshot)
+- [Enlaces](#links) - [Mi proceso](#my-process) - [Construido con](#built-with) 
+- [Desarrollo continuado](#continued-development) - [Recursos útiles](#useful-resources) - [Autor](#author) 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+### El reto
 
-## Overview
-
-### The challenge
-
-Users should be able to:
+Los usuarios deben ser capaces de:
 
 - Ver todos los países desde la API en la página de inicio
 - Buscar un país utilizando un campo de "entrada"
@@ -30,18 +18,18 @@ Users should be able to:
 - Hacer clic en un país para ver información más detallada en una página aparte
 - Hacer clic en los países fronterizos en la página de detalles - Alternar la combinación de colores entre modo claro y oscuro *(opcional)*.
 - 
-### Screenshot
+### Captura de pantalla
 
 ![Countries API](desktop-preview.jpg)
 
-### Links
+### Enlaces
 
 - Solution URL: [Github solution code](https://github.com/WilliamLop/rest-contries-api.git)
 - Live Site URL: [Rest countries](https://contriesword.netlify.app/)
 
-## My process
+## Mi proceso
 
-### Built with
+### Construido con
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -61,7 +49,7 @@ Users should be able to:
 En futuros proyectos, me gustaría seguir centrándome en el desarrollo y la mejora de las funcionalidades relacionadas con los filtros. He aprendido sobre la importancia de ofrecer a los usuarios opciones claras y efectivas para filtrar los resultados, lo cual contribuye significativamente a una mejor experiencia de usuario. Me interesa profundizar mis conocimientos sobre técnicas avanzadas de filtrado, como la búsqueda avanzada, la clasificación dinámica de resultados y la optimización de la velocidad de respuesta en la aplicación de filtros, para ofrecer a los usuarios una experiencia de búsqueda más fluida y eficiente.
 
 
-## Author
+## Autor
 
 - Website - [William Calderon](https://porfoliowilliamcl.netlify.app/)
 - Frontend Mentor - [@WilliamLop](https://www.frontendmentor.io/profile/WilliamLop)
