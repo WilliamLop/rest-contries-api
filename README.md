@@ -10,7 +10,6 @@ Esta es una solución al [REST Countries API with color theme switcher challenge
 - [Mi proceso](#mi-proceso)
 - [Construido con](#construido-con) 
 - [Desarrollo continuado](#desarrollo-continuado)
-- [Recursos útiles](#recursos-utiles)
 - [Autor](#autor) 
 
 ### El reto
