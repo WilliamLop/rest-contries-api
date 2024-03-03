@@ -7,7 +7,6 @@ Esta es una solución al [REST Countries API with color theme switcher challenge
 - [El reto](#el-reto)
 - [Captura de pantalla](#captura-de-pantalla)
 - [Enlaces](#enlances)
-- [Mi proceso](#mi-proceso)
 - [Construido con](#construido-con) 
 - [Desarrollo continuado](#desarrollo-continuado)
 - [Autor](#autor) 
@@ -30,8 +29,6 @@ Los usuarios deben ser capaces de:
 
 - Solution URL: [Github solution code](https://github.com/WilliamLop/rest-contries-api.git)
 - Live Site URL: [Rest countries](https://contriesword.netlify.app/)
-
-## Mi proceso
 
 ### Construido con
 
