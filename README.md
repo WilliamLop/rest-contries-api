@@ -4,9 +4,14 @@ Esta es una solución al [REST Countries API with color theme switcher challenge
 
 ## Índice
 
-- Vista general](#overview) - [El reto](#the-challenge) - [Captura de pantalla](#screenshot)
-- [Enlaces](#links) - [Mi proceso](#my-process) - [Construido con](#built-with) 
-- [Desarrollo continuado](#continued-development) - [Recursos útiles](#useful-resources) - [Autor](#author) 
+- [El reto](#el-reto)
+- [Captura de pantalla](#captura-de-pantalla)
+- [Enlaces](#enlances)
+- [Mi proceso](#mi-proceso)
+- [Construido con](#construido-con) 
+- [Desarrollo continuado](#desarrollo-continuado)
+- [Recursos útiles](#recursos-utiles)
+- [Autor](#autor) 
 
 ### El reto
 
